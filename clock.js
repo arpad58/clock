@@ -2,8 +2,10 @@
 
 const time = document.querySelector('.time-out');
 
-const dateNow = new Date();
+const getTimeNow = dateNow => {
+    dateNow = new Date();
+    const timeNow = dateNow.toLocaleTimeString('hu');
+    time.textContent = timeNow;
+};
 
-const timeNow = dateNow.toLocaleTimeString('hu');
-
-time.textContent = timeNow;
+setInterval(getTimeNow, 1000);
