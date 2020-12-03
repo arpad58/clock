@@ -1,3 +1,8 @@
+@font-face {
+    font-family: Cyberverse;
+    src: url('./fonts/cyberverse.otf');
+}
+
 html {
     font-size: 4rem;
 }
@@ -9,8 +14,7 @@ html {
 body {
     padding: 0;
     margin: 0;
-    background-color: rgb(0, 0, 0);
-    font-family: 'Cyberverse';   
+    background-color: rgb(0, 0, 0);     
 }
 
 .clock {
@@ -22,5 +26,5 @@ body {
 
 .clock p { 
     color: rgb(106, 227, 243);
-    font-family: 'Cyberverse';  
+    font-family: 'Cyberverse';
 }
